@@ -1,0 +1,21 @@
+{
+    "name": "Mindmap Copilot Dev Container",
+    "image": "mcr.microsoft.com/devcontainers/typescript-node:0-20",
+    "forwardPorts": [
+      3000
+    ],
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "typescript.tsdk": "./node_modules/typescript/lib",
+          "eslint.enable": true,
+          "editor.formatOnSave": true
+        },
+        "extensions": [
+          "dbaeumer.vscode-eslint",
+          "esbenp.prettier-vscode"
+        ]
+      }
+    },
+    "postCreateCommand": "npm install && cp .env.example .env.local && echo 'Please set your OPENAI_API_KEY in .env.local'"
+  }
