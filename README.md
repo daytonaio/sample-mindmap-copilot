@@ -13,7 +13,7 @@ To learn more about how this project works, you can read this blog post: https:/
    ```bash
    daytona create https://github.com/hoangv97/MindmapCopilot-Daytona 
    ```
-3. **Copy the `.env.example` file to `.env` file and edit it with your OpenAI API key:**
+3. **Copy the `.env.example` file to `.env.local` file and edit it with your OpenAI API key:**
    ```bash
    OPENAI_API_KEY=<YOUR OPENAI API KEY>
    ```
