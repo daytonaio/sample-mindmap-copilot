@@ -1,4 +1,4 @@
-# Mindmap Copilot
+# Sample NextJS - Mindmap Copilot
 
 Mindmap Copilot, powered by AI CopilotKit, simplifies your mindmap creation. Chat with your copilot to visualize and enrich your map with suggested notes for each node.
 
